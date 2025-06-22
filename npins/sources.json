@@ -1,0 +1,40 @@
+{
+  "pins": {
+    "nix-vitamtp": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "rx342",
+        "repo": "nix-vitamtp"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "36f4b89f29fa429682c7d8642f3b09ca5ee75644",
+      "url": "https://github.com/rx342/nix-vitamtp/archive/36f4b89f29fa429682c7d8642f3b09ca5ee75644.tar.gz",
+      "hash": "1xi3bqq3wsz2jjgb661sbcxs793r2k9pw5090gv872bjlj84yi8b"
+    },
+    "nixpkgs": {
+      "type": "Channel",
+      "name": "nixpkgs-unstable",
+      "url": "https://releases.nixos.org/nixpkgs/nixpkgs-25.11pre820016.3078b9a9e75f/nixexprs.tar.xz",
+      "hash": "0kwcr8qmiqpihrnccq22qxsmgmh33wfdx64l29p2sqavh8gh205y"
+    },
+    "qcma": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "codestation",
+        "repo": "qcma"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v0.4.1",
+      "revision": "6044fbfdba62c285e701bf25f8fcc54d3fc60492",
+      "url": "https://api.github.com/repos/codestation/qcma/tarball/v0.4.1",
+      "hash": "15wrjg7xjnbzrl2r2z90nqvd4ifrsn4p8kvd1yn58s3i9p1v17kr"
+    }
+  },
+  "version": 5
+}
