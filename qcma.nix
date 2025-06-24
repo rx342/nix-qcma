@@ -12,16 +12,15 @@ stdenv.mkDerivation {
   pname = "qcma";
   version = "0.4.1";
   src = qcma;
-  env = {
-    PKG_CONFIG_PATH = "${libvitamtp}/lib/pkgconfig:$PKG_CONFIG_PATH";
-  };
   nativeBuildInputs = [
+    pkg-config
+  ];
+  buildInputs = [
     libsForQt5.qt5.qttools
     libsForQt5.qt5.wrapQtAppsHook
     libnotify
     libvitamtp
     ffmpeg
-    pkg-config
   ];
   buildPhase = ''
     mkdir -p build
