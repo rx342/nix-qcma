@@ -9,9 +9,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "58bd9b13d2dc12fb9122f2dbf5d42aea5e226545",
-      "url": "https://github.com/rx342/nix-vitamtp/archive/58bd9b13d2dc12fb9122f2dbf5d42aea5e226545.tar.gz",
-      "hash": "1axhj93j0544p4sb9gqny1q2ffm4c3qkwmgpfqdbv5hrk7zqwccw"
+      "revision": "e6c314da919e4d0e26b30841ebe5e7974de0d6a1",
+      "url": "https://github.com/rx342/nix-vitamtp/archive/e6c314da919e4d0e26b30841ebe5e7974de0d6a1.tar.gz",
+      "hash": "19qxmbxvs08ad6dpyv7daplz54nigq3r4rpd6pq3da9415nqc6jj"
     },
     "nixpkgs": {
       "type": "Channel",
