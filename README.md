@@ -18,7 +18,7 @@ nix-build
 
 ## Explanation
 
-`qcma` is an "old" package (`0.4.1` dates back to 2016) which makes it tricky to build today.
+`qcma` is an "old" package (`0.4.2` dates back to 2018) which makes it tricky to build today.
 With Nix and pinned dependencies, we are sure that it will work forever™.
 
 More details:

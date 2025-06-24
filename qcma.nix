@@ -10,7 +10,7 @@
 
 stdenv.mkDerivation {
   pname = "qcma";
-  version = "0.4.1";
+  version = "0.4.2";
   src = qcma;
   nativeBuildInputs = [
     pkg-config

@@ -20,20 +20,17 @@
       "hash": "0kwcr8qmiqpihrnccq22qxsmgmh33wfdx64l29p2sqavh8gh205y"
     },
     "qcma": {
-      "type": "GitRelease",
+      "type": "Git",
       "repository": {
         "type": "GitHub",
         "owner": "codestation",
         "repo": "qcma"
       },
-      "pre_releases": false,
-      "version_upper_bound": null,
-      "release_prefix": null,
+      "branch": "master",
       "submodules": false,
-      "version": "v0.4.1",
-      "revision": "6044fbfdba62c285e701bf25f8fcc54d3fc60492",
-      "url": "https://api.github.com/repos/codestation/qcma/tarball/v0.4.1",
-      "hash": "15wrjg7xjnbzrl2r2z90nqvd4ifrsn4p8kvd1yn58s3i9p1v17kr"
+      "revision": "65f0eab8ca0640447d2e84cdc5fadc66d2c07efb",
+      "url": "https://github.com/codestation/qcma/archive/65f0eab8ca0640447d2e84cdc5fadc66d2c07efb.tar.gz",
+      "hash": "1i8g4w05s1dalqyl42v6fmcng84nn95gd7vh3vvx4hg2bikdc5h3"
     }
   },
   "version": 5
