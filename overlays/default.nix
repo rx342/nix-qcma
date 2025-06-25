@@ -1,6 +1,13 @@
 final: prev: {
   ffmpeg =
     (prev.ffmpeg.override {
+      buildFfplay = false;
+      buildFfprobe = false;
+      buildQtFaststart = false;
+      withNvcodec = false;
+      buildAvdevice = false;
+      buildAvresample = false;
+      buildPostproc = false;
       withDoc = false;
       withManPages = false;
     }).overrideAttrs
