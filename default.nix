@@ -12,5 +12,5 @@
 
 pkgs.callPackage ./qcma.nix {
   inherit qcma;
-  libvitamtp = nix-vitamtp;
+  inherit (nix-vitamtp) libvitamtp;
 }
