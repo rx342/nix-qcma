@@ -33,3 +33,7 @@ nix-build
 # 🚀 launch
 ./result/bin/qcma
 ```
+
+## Credits
+
+- [codestation/qcma](https://github.com/codestation/qcma)
