@@ -2,7 +2,8 @@
 
 Packaging [codestation/qcma](https://github.com/codestation/qcma) with Nix.
 
-Tested on `x86_64-linux`.
+> [!WARNING]
+> Tested on `x86_64-linux`.
 
 ## Why and how?
 
