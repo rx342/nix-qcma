@@ -7,16 +7,11 @@ Packaging [codestation/qcma](https://github.com/codestation/qcma) with Nix.
 
 ## Why and how?
 
-`qcma` is an "old" package (`0.4.2` dates back to 2018) which makes it tricky to build today.
-With Nix and pinned dependencies, we are sure that it will work forever™ (for legal reasons: this is a joke).
+I started this because [codestation/qcma](https://github.com/codestation/qcma) wasn't updated for a long time ([`0.4.2`](https://github.com/codestation/qcma/tree/65f0eab8ca0640447d2e84cdc5fadc66d2c07efb) dated back to 2018) which was really tricky to build.
+I decided to package it with Nix to make sure everything will work in the future.
+For more details, please refer to [this commit](https://github.com/rx342/nix-qcma/tree/b4234531efe10fc22c5b5d84d1a7fdc472e6a7a5).
 
-More details:
-
-- [codestation/vitamtp](https://github.com/codestation/vitamtp) is packaged with Nix (see [rx342/nix-vitamtp](https://github.com/rx342/nix-vitamtp))
-  - Uses an old version of `libxml2` which increases build time (see the [README.md](https://github.com/rx342/nix-vitamtp/blob/main/README.md))
-- An old version of `ffmpeg` is required (we use `2.8.22` in this repository)
-  - Defined in the [overlay](./overlays/default.nix)
-  - Needs to be built from source, which increases build time
+In 2025 it was updated again so I will try to maintain this.
 
 ## Usage
 

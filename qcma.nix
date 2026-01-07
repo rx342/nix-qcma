@@ -10,7 +10,7 @@
 
 stdenv.mkDerivation {
   pname = "qcma";
-  version = "0.4.2";
+  version = "0.5.1";
   src = qcma;
   nativeBuildInputs = [
     pkg-config
@@ -22,6 +22,19 @@ stdenv.mkDerivation {
     libvitamtp
     ffmpeg
   ];
+  patchPhase = ''
+    substituteInPlace common/cmabroadcast.cpp \
+      --replace-fail ".toStdString()" ".toUtf8()"
+    substituteInPlace cli/main_cli.cpp \
+      --replace-fail "QLibraryInfo::path(QLibraryInfo::TranslationsPath)" \
+                "QLibraryInfo::location(QLibraryInfo::TranslationsPath)"
+    substituteInPlace gui/main.cpp \
+      --replace-fail "QLibraryInfo::path(QLibraryInfo::TranslationsPath)" \
+                "QLibraryInfo::location(QLibraryInfo::TranslationsPath)"
+    substituteInPlace gui/forms/backupitem.cpp \
+      --replace-fail "return ui->itemPicture->pixmap();" \
+                "return ui->itemPicture->pixmap() ? *ui->itemPicture->pixmap() : QPixmap();"
+  '';
   buildPhase = ''
     mkdir -p build
     cd build
