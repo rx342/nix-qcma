@@ -9,15 +9,15 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "648f14d3f97c4564648dd6aed8d42f88e76a0980",
-      "url": "https://github.com/rx342/nix-vitamtp/archive/648f14d3f97c4564648dd6aed8d42f88e76a0980.tar.gz",
-      "hash": "02a09xa18pai9qbnhxh4rfhrjp7na68k69sk3cb8hqr3lc0qki06"
+      "revision": "07e93ffd55a668b66c61ade182f5bd4c35009d55",
+      "url": "https://github.com/rx342/nix-vitamtp/archive/07e93ffd55a668b66c61ade182f5bd4c35009d55.tar.gz",
+      "hash": "sha256-kIXxrnYBxOYCgvf2YQ447sJdGUCLD9GWyimMSrREhtw="
     },
     "nixpkgs": {
       "type": "Channel",
       "name": "nixpkgs-unstable",
-      "url": "https://releases.nixos.org/nixpkgs/nixpkgs-25.11pre820016.3078b9a9e75f/nixexprs.tar.xz",
-      "hash": "0kwcr8qmiqpihrnccq22qxsmgmh33wfdx64l29p2sqavh8gh205y"
+      "url": "https://releases.nixos.org/nixpkgs/nixpkgs-26.05pre921317.16c7794d0a28/nixexprs.tar.xz",
+      "hash": "sha256-G6ie+qOCRSV7wzOY+6L1o8GvcH1qDcE/DTzDT4CRdNw="
     },
     "qcma": {
       "type": "Git",
@@ -28,10 +28,10 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "65f0eab8ca0640447d2e84cdc5fadc66d2c07efb",
-      "url": "https://github.com/codestation/qcma/archive/65f0eab8ca0640447d2e84cdc5fadc66d2c07efb.tar.gz",
-      "hash": "1i8g4w05s1dalqyl42v6fmcng84nn95gd7vh3vvx4hg2bikdc5h3"
+      "revision": "26ad896537288712fe1cdda23e310d461a0d95af",
+      "url": "https://github.com/codestation/qcma/archive/26ad896537288712fe1cdda23e310d461a0d95af.tar.gz",
+      "hash": "sha256-OFP7ZpTjiJYzz7uVyscemNsBHYnQOu5hGdi7xfLPYnM="
     }
   },
-  "version": 5
+  "version": 7
 }
