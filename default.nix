@@ -10,7 +10,15 @@
   nix-vitamtp ? import source.nix-vitamtp { },
 }:
 
-pkgs.callPackage ./qcma.nix {
-  inherit qcma;
-  inherit (nix-vitamtp) libvitamtp;
-}
+let
+  inherit (pkgs) lib;
+in
+lib.makeScope pkgs.newScope (final: {
+  qcma = final.callPackage ./qcma.nix {
+    inherit qcma;
+    inherit (nix-vitamtp) libvitamtp;
+  };
+  test = final.callPackage ./test.nix {
+    inherit (source) nix-vitamtp;
+  };
+})
