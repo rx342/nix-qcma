@@ -19,6 +19,6 @@ lib.makeScope pkgs.newScope (final: {
     inherit (nix-vitamtp) libvitamtp;
   };
   test = final.callPackage ./test.nix {
-    inherit (source) nix-vitamtp;
+    inherit nix-vitamtp;
   };
 })
