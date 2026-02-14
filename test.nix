@@ -14,7 +14,7 @@ testers.runNixOSTest {
         environment.systemPackages = [ qcma ];
 
         imports = [
-          "${nix-vitamtp}/modules/nixos.nix"
+          nix-vitamtp.nixosModules.default
           "${path}/nixos/tests/common/x11.nix"
         ];
       };
